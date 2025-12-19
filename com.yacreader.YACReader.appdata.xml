@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
+  <!--Created with jdAppStreamEdit 9.2-->
   <id>com.yacreader.YACReader</id>
   <name>YACReader</name>
   <summary>Yet another comic reader</summary>
@@ -42,6 +43,16 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="9.16.2" date="2025-12-16" type="stable">
+      <description>
+        <p>YACReaderLibrary</p>
+        <ul>
+          <li>New customizable User Agent string to use it with Comic Vine. It can be set in YACReaderLibrary.ini in the [ComicVine] section using the COMIC_VINE_USER_AGENT key. Please, don't use it unless you are experimenting problems.</li>
+          <li>Prevent crash when opening the folders context menu if a folder is not selected.</li>
+          <li>Fix crash when using the Set type menu on libraries</li>
+        </ul>
+      </description>
+    </release>
     <release version="9.16.1" date="2025-12-09" type="stable">
       <description>
         <p>YACReaderLibrary</p>
